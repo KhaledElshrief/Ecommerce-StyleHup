@@ -1,0 +1,58 @@
+.productList{
+    flex: 4;
+}
+
+.productListError{
+    margin: 12px 20px;
+    color: #c62828;
+}
+
+.productListHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px 10px;
+}
+
+.productListTitle{
+    margin: 0;
+    font-size: 24px;
+}
+
+.productListCreate{
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.productListItem{
+    display: flex;
+    align-items: center;
+}
+
+.productListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.productListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productListDelete{
+    color: red;
+    cursor: pointer;
+}
